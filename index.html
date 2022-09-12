@@ -3,41 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css" />
     <title>HTML Homework</title>
 </head>
-<body>
+<body class="main">
     <header>
-        <nav>
-            <a href="index.html" target="_self">Intro</a>
-            <br>
-            <a href="page_2.html" target="_self">Organization</a>
+        <nav class="nav">
+            <a id="intro" href="index.html" target="_self">Intro</a>
+            <a id="page2" href="page_2.html" target="_self">Course Organization</a>
         </nav>
         <h1><b>Carmen Grijalba</b></h1>
-        <img src="msg252627149-121666.jpg" alt="Carmen smiling" width="170px" height="200px">
+        <img class="images" src="msg252627149-121666.jpg" alt="Carmen smiling" width="170px" height="200px">
         <h3>Hi, I'm Carmen! Welcome to my page!</h3> <hr>
     </header>
     <main>
-        <div>
+        <div class="container">
             <p>Some information about myself:</p>
-            <dl><b>My Hobbies</b></dl>
-            <ul>
+            <dl class="title"><b>My Hobbies</b></dl>
+            <ul id="hobbies">
                 <li>Listening to music and going to concerts.</li>
                 <li>Watching movies.</li>
                 <li>Reading (my favourite author is <a href=" https://www.ursulakleguin.com/about-ursula" target="_blank">Ursula K. Le Guin)</a></li>
                 <li>Mountain biking.</li>
                 <li>Hiking.</li>
                 <li>Playing guitar and bass.</li>
-                <li> Drawing (but I'm not very good).</li>
             </ul>
         </div>
-        <div>
-            <p><b>Song of my Summer!</b></p>
+        <div class="video">
+            <p class="title"><b>Song of my Summer!</b></p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/vzb4nUxFBVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Jorge Ben - O Telefone Tocou Novamente</iframe>
         </div>
     </main> 
 </body>
-<footer>
+<footer class="footer">
     <dl><b>Contact:</b></dl>
     <ul>
         <li>email: cgrijalbap@gmail.com</li>
