@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(13, 185, 238);
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: rgb(255, 119, 0);
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 5px 5px #1d9eb7;
+}
+
+h3{
+    text-align: center;
+}
+
+nav {
+    padding: 16px 32px;
+    background-color: rgb(255, 119, 0);
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: solid #033132;
+    box-shadow: 8px 8px #1d9eb7;
+    color: #001F20;
+}
+
+a:hover {
+    color: rgb(255, 119, 0); 
+}
+nav a:hover {
+ color:rgb(13, 185, 238);
+}
+
+#intro, #page2 {
+    padding: 16px 32px;
+}
+
+.images {
+    border: solid #033132;
+    box-shadow: 8px 8px #1d9eb7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    padding: 16px 32px;
+    background-color: rgb(255, 119, 0);
+    margin: 20px;
+    text-align: center;
+    box-shadow: 8px 8px #1d9eb7
+}
+
+.video {
+    text-align: center;
+}
+
+footer {
+    padding: 16px 32px;
+    background-color: rgb(255, 119, 0);
+    margin: 20px;
+    text-transform: uppercase;
+    border: solid #033132;
+    box-shadow: 8px 8px #1d9eb7;
+    color: #001F20;
+}
+
+table {
+    text-align: center;
+    border: solid #033132;
+    box-shadow: 8px 8px #1d9eb7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: rgb(255, 119, 0);
+    opacity: 0.6;
+}
+
+td, th {
+    padding: 16px 32px;
+}
