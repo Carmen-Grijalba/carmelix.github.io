@@ -1,14 +1,14 @@
 body {
-    background-color: rgb(13, 185, 238);
+    background-color: rgb(214, 205, 164);
     font-family: 'Josefin Sans', sans-serif;
     margin: 40px;
 }
 
 h1 {
-    color: rgb(255, 119, 0);
+    color: rgb(201, 132, 116);
     font-size: 70px;
     text-align: center;
-    text-shadow: 5px 5px #1d9eb7;
+    text-shadow: 5px 5px rgb(28, 103, 88);
 }
 
 h3{
@@ -17,21 +17,27 @@ h3{
 
 nav {
     padding: 16px 32px;
-    background-color: rgb(255, 119, 0);
+    background-color: rgb(61, 131, 97);
     margin: 20px;
     text-align: center;
     text-transform: uppercase;
     border: solid #033132;
-    box-shadow: 8px 8px #1d9eb7;
+    box-shadow: 8px 8px rgb(201, 132, 116);
     color: #001F20;
 }
 
+a {
+    color: rgb(61, 131, 97);
+}
+
 a:hover {
-    color: rgb(255, 119, 0); 
+    color: rgb(201, 132, 116); 
 }
-nav a:hover {
- color:rgb(13, 185, 238);
+
+nav a {
+    color: rgb(238, 242, 230);
 }
+
 
 #intro, #page2 {
     padding: 16px 32px;
@@ -39,18 +45,19 @@ nav a:hover {
 
 .images {
     border: solid #033132;
-    box-shadow: 8px 8px #1d9eb7;
+    box-shadow: 8px 8px rgb(28, 103, 88);
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .title {
+    color: rgb(238, 242, 230);
     padding: 16px 32px;
-    background-color: rgb(255, 119, 0);
+    background-color: rgb(61, 131, 97);
     margin: 20px;
     text-align: center;
-    box-shadow: 8px 8px #1d9eb7
+    box-shadow: 8px 8px rgb(201, 132, 116);
 }
 
 .video {
@@ -59,27 +66,33 @@ nav a:hover {
 
 footer {
     padding: 16px 32px;
-    background-color: rgb(255, 119, 0);
+    background-color: rgb(61, 131, 97);
     margin: 20px;
     text-transform: uppercase;
     border: solid #033132;
-    box-shadow: 8px 8px #1d9eb7;
+    box-shadow: 8px 8px rgb(201, 132, 116);
     color: #001F20;
 }
 
 table {
     text-align: center;
     border: solid #033132;
-    box-shadow: 8px 8px #1d9eb7;
+    box-shadow: 8px 8px rgb(201, 132, 116);
     margin-left: auto;
     margin-right: auto;
 }
 
 thead {
-    background-color: rgb(255, 119, 0);
+    background-color: rgb(28, 103, 88);
     opacity: 0.6;
+    color: rgb(213, 216, 181);
 }
 
 td, th {
     padding: 16px 32px;
+}
+
+tbody {
+    background-color: rgb(213, 216, 181);
+    opacity: 0.6;
 }
