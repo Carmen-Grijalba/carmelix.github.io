@@ -18,7 +18,7 @@ if (firstq === "Yes") {
         alert ("One moment while I check if we have any left, please")
         let fourthq = prompt ("We do! How many do you need?")
         console.log(fourthq)
-        if (fourthqq === "<3") {
+        if ("<3") {
         let fifthq = prompt ("Sorry, we don't have that many. Are 2 enough?")
         console.log (fifthq)
         if (fifthq === "Yes") {
