@@ -51,6 +51,18 @@ nav a {
     margin-right: auto;
 }
 
+#center {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
 .title {
     color: rgb(238, 242, 230);
     padding: 16px 32px;
@@ -84,7 +96,7 @@ table {
 
 thead {
     background-color: rgb(28, 103, 88);
-    opacity: 0.8;
+    opacity: 0.6;
     color: rgb(213, 216, 181);
 }
 
