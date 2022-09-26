@@ -14,11 +14,11 @@ if (firstq === "Yes") {
     if (secondqq === "No") {
         alert ("Great! That'll be 20€, please")
     } else {
-        let fourthqq = prompt ("What are you looking for?")
+        prompt ("What are you looking for?")
         alert ("One moment while I check if we have any left, please")
         let fourthq = prompt ("We do! How many do you need?")
         console.log(fourthq)
-        if ("<3") {
+        if (">3") {
         let fifthq = prompt ("Sorry, we don't have that many. Are 2 enough?")
         console.log (fifthq)
         if (fifthq === "Yes") {
